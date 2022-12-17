@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: rgb(97,118,75);
+background: linear-gradient(90deg, rgba(97,118,75,0.636758927203694) 17%, rgba(207,185,151,0.6171510840664391) 74%);
+}
+
+.card {
+  background-color: #FAD6A5;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.card-title,
+.card-subtitle {
+  color: black;
+}
+
+.card-body {
+  width: auto;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.loadingImg{
+ background: transparent;
+ display: flex;
+ justify-content: center;
+}
